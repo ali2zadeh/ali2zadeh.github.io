@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Boka</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="Hemsida.css" type="text/css">
+		<meta name="viewport" content="width=device-width, intial-scale=1.0"> 
+	</head>
+	<body class="body">
+        <div class="welcom"> Välkommna till Bright Hotell</div>    
+           <div class="nav">
+                <ul>
+				<li><a href="Index.html">Hem</a></li>
+				<li id="selected"><a href="Boka.html">Boka</a></li>
+                <li ><a href="Karta.html"> Hitta </a></li>
+				<li><a href="Lokaler.html">Lokaler</a></li>
+                </ul>  
+               </nav>
+        
+        <div id="container"> 
+			<div class="row">
+				<section id="bokarum">
+					<form action="MAILTO:test@test.com" method="post" enctype="text/plain">
+                        
+						<h1>Boka hotellrum</h1>
+						Namn:<br />
+						<input type="text" name="name"/> <br /><br>
+						Personnummer:<br />
+						<input type="text" name="personnummer"/> <br /><br>
+						Telefonnummer:<br />
+						<input type="text" name="phone"/> <br /><br>
+						Epostadress:<br />
+						<input type="text" name="email"/> <br />
+
+						Antal rum:
+						<select name="rooms">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+                            <option value="10">11</option>
+                            <option value="10">12</option>
+                            <option value="10">13</option>
+                            <option value="10">14</option>
+						</select>
+						<br />
+						Antal personer per rum:
+						<select name="persons">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
+
+						<br /><br />
+						<input type="submit" value="Boka rum" />
+						<input type="reset" value="Återställ" />
+					</form>
+				</section>
+
+				<section id="bokalokal">
+					<form action="MAILTO:test@test.com" method="post" enctype="text/plain">
+						<h1>Boka konferenslokal</h1>
+						Företagsnamn:<br />
+						<input type="text" name="name"/> <br /><br>
+						Organisations/personnummer:<br />
+						<input type="text" name="personnummer"/> <br /><br>
+						Telefonnummer:<br />
+						<input type="text" name="organisation"/> <br /><br>
+						Epostadress:<br />
+						<input type="text" name="email"/> <br /><br>
+						Datum:<script type="text/javascript">DateInput('orderdate', true, 'DD-MON-YYYY')</script><br>
+
+						Antal timmar:
+						<select name="hours">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						</select>
+					<br /><br>
+					Från klockan: 
+					<select name="from">
+						<option value="07">07:00</option>
+						<option value="08">08:00</option>
+						<option value="09">09:00</option>
+						<option value="10">10:00</option>
+						<option value="11">11:00</option>
+						<option value="12">12:00</option>
+						<option value="13">13:00</option>
+						<option value="14">14:00</option>
+						<option value="15">15:00</option>
+						<option value="16">16:00</option>
+						<option value="17">17:00</option>
+						<option value="18">18:00</option>
+						<option value="19">19:00</option>
+                        <option value="19">20:00</option>
+                        <option value="19">21:00</option>
+					</select>
+					<br/><br>
+					Till hur många personer:
+					<select name="size">
+						<option value="5">Upp till  5 personer</option>
+						<option value="10">Upp till 10 personer</option>
+						<option value="20">Upp till 15 personer</option>
+						<option value="30">Upp till 20 personer</option>
+						<option value="40">Upp till 25 personer</option>
+						<option value="60">Upp till 30 personer</option>
+                        <option value="60">Upp till 35 personer</option>
+                        <option value="60">Upp till 40 personer</option>
+                        <option value="60">Upp till 45 personer</option>
+                        <option value="60">Upp till 50 personer</option>
+					</select>
+
+					<br /><br />
+					<input type="submit" value="Boka lokal" />
+					<input type="reset" value="Återställ" />
+					</form>
+				</section>
+
+		</div>
+		</div>
+        
+        
+      <footer class="footer">
+	   © Bright Hotell | Von troils väg 8a | 21363 Malmö
+        </footer>
+        
+    </body>
+</html>

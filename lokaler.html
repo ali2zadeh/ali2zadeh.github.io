@@ -9,15 +9,13 @@
 	<body class="body">
         <div class="Lokaler">Ta en titt på våra lokaler</div>
 
-        <div class="nav">
-			
-            <ul>
-				<li><a href="index.html">Hem</a></li>
-				<li><a href="boka.html">Boka</a></li>
-                <li ><a href="karta.html"> Hitta </a></li>
-				<li id="selected" ><a href="lokaler.html">Lokaler</a></li>
-            </ul>
-        </div>
+       <div class="topnav" id="myTopnav">
+  <a href="index.html">Hem</a>
+  <a href="boka.html">Boka</a>
+  <a href="karta.html">Hitta</a>
+  <a href="lokal.html">Lokaler</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
         <div class="mainContent">
 			<div class="content1">
 				<article class="topcontent1">
@@ -75,5 +73,14 @@
         <footer id="lokalfooter">
 	   © Bright Hotell | Von troils väg 8a | 21363 Malmö
         </footer>
+        <script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+        </script>
     </body>
 </html>

@@ -4,7 +4,7 @@ body {
 	font-family: Times new Roman;
 	line-height: 1.5;
 	text-align:left;
-    background-image:url(image/wallpaper.jpg);
+    background-image:url(../image/wallpaper.jpg);
     background-color: white;
 }
 

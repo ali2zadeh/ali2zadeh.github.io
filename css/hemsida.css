@@ -4,7 +4,7 @@ body {
 	font-family: Times new Roman;
 	line-height: 1.5;
 	text-align:left;
-    background-image:url(wallpaper.jpg);
+    background-image:url(image/wallpaper.jpg);
     background-color: white;
 }
 
@@ -181,7 +181,7 @@ img.service {
 	display: table;
 	width: 90%;
     height: 700px;
-	background-image:url(backgroudboka1.jpg);
+	background-image:url(image/backgroudboka1.jpg);
 	border-radius: 5px;
 	margin-top:0px;
 	margin-bottom: 1%;
@@ -204,7 +204,7 @@ width:600px;
 height:600px;
 margin-right:auto;
 margin-left:none;
-background-image:url('images/find_bg.jpg');
+background-image:url(image/find_bg.jpg');
 background-repeat:no-repeat;
 text-align:left;
 padding:1em;
@@ -402,7 +402,7 @@ section.paragraf {
 	 }
     /*Hitta*/
     #find-main{
-		width: 80%;
+		width: 70%;
 	
     }
     /*Lokaler*/

@@ -150,16 +150,14 @@ img.service {
 /*Boka*/
 #container {
 	display: table;
-	width: 90%;
+	width: 100%;
     height: 700px;
-	background-image:url(../image/backgroudboka1.jpg);
+	background-color: bisque;
 	border-radius: 5px;
-	margin-top:0px;
+	margin-top:2%;
 	margin-bottom: 1%;
 	padding-bottom: 10px;
-    margin-left: -3%;
-    
-    
+    margin-left: 0.3%;
 }
 section#bokarum {
 	float: left;
@@ -283,7 +281,7 @@ section.paragraf {
 
 /*Mobilanpassning*/
 
-@media only screen and (min-width: 200px) and (max-width: 600px)
+@media  (max-width: 600px)
 {
     /*Hem*/
     .body {
@@ -301,7 +299,6 @@ section.paragraf {
     float: right;
     display: block;
   }
-}
 
 
   .topnav.responsive {position: relative;}

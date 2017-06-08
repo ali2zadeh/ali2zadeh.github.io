@@ -24,6 +24,15 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
+.selected  {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: aqua;
+}
 
 .topnav a:hover {
     background-color: #ddd;
@@ -80,7 +89,7 @@ body {
 	padding-top: 3%;
 	padding-right: 3%;
 	padding-left: 3%;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 	margin-top: 2%;
 	
 }
@@ -358,7 +367,6 @@ section.paragraf {
     #container {
 		width: 100%;
 		margin-top: 2%;
-        margin-left:5px;
 	
 	}
 	section#bokarum {
